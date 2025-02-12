@@ -1,6 +1,8 @@
 # Airbnb Clone
 An Airbnb-inspired web application built using the MERN stack (MongoDB, Express.js, React, and Node.js). This project replicates core functionalities of Airbnb, including user authentication, property listings, booking features, and image uploads.
 
+ **Live Demo:** [https://mani-airbnb-clone.vercel.app/](https://mani-airbnb-clone.vercel.app/)  
+
 ### Features
     User Authentication: Secure login and registration using JWT.
     Property Listings: Users can view, add, and manage property details.
@@ -23,6 +25,7 @@ An Airbnb-inspired web application built using the MERN stack (MongoDB, Express.
     JWT for authentication
     Multer for file uploads
     Bcrypt.js for password encryption
+    AWS for secure storage
     Cookie-parser for cookie management
     Image-downloader for downloading images from URLs
     Cors for enabling cross-origin requests
@@ -56,7 +59,5 @@ Command	Description
         multer: For handling file uploads.
         image-downloader: For downloading images from URLs.
 
-## Deployment
-    The app can be deployed on platforms like Vercel
 
 Contributions are welcome! Feel free to open issues or submit pull requests.😊
